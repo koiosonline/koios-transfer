@@ -70,7 +70,6 @@ export const App = () => {
           <table className="token-section__transferlisttable">
             <thead>
               <tr>
-                <th>Name</th>
                 <th>Address</th>
               </tr>
             </thead>
