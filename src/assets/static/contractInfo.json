@@ -10,5 +10,17 @@
     "chainId": 4,
     "chainName": "Rinkeby",
     "address": "0x58062f890867d0d5bb263b55705339be4d043ee0"
+  },
+  "koiosAttendeeNFT": {
+    "name": "Koios attendeeNFT Blockchain week 2021",
+    "chainId": 100,
+    "chainName": "xDai",
+    "address": "0xD34C0F8eE6E203eB69551892aDF9980d522CDDaB"
+  },
+  "koiosPresenterNFT": {
+    "name": "Koios presenterNFT Blockchain week 2021",
+    "chainId": 100,
+    "chainName": "xDai",
+    "address": "0x4Ee9b0Ad41067623BD86c634b29e387E8E66651D"
   }
 }

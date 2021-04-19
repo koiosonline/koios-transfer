@@ -50,6 +50,12 @@ export const App = () => {
       case "PresTestToken":
         loadContract(contractInfo.koiosTestNFTPresenter);
         break;
+      case "AttendeeToken":
+        loadContract(contractInfo.koiosAttendeeNFT);
+        break;
+      case "PresenterToken":
+        loadContract(contractInfo.koiosPresenterNFT);
+        break;
       default:
         console.log("Contract not available");
     }
@@ -98,6 +104,8 @@ export const App = () => {
             >
               <MenuItem value={"AttTestToken"}>Attendance Test Token</MenuItem>
               <MenuItem value={"PresTestToken"}>Presenter Test Token</MenuItem>
+              <MenuItem value={"AttendeeToken"}>Attendance Token xDai</MenuItem>
+              <MenuItem value={"PresenterToken"}>Presenter Token xDai</MenuItem>
             </Select>
           </FormControl>
         </div>
