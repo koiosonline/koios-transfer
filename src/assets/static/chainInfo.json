@@ -1,0 +1,54 @@
+{
+  "paramRinkeby": [
+    {
+      "chainId": "0x4",
+      "chainName": "Rinkeby",
+      "rpcUrls": [
+        "https://rinkeby.infura.io/v32d82f4a0940f44b781b714a309d7d199",
+        "wss://rinkeby.infura.io/ws/v3/2d82f4a0940f44b781b714a309d7d199"
+      ],
+      "nativeCurrency": {
+        "name": "Rinkeby Ether",
+        "symbol": "RIN",
+        "decimals": 18
+      }
+    }
+  ],
+  "paramxDai": [
+    {
+      "chainId": "0x64",
+      "chainName": "xDAI Chain",
+      "rpcUrls": [
+        "https://dai.poa.network"
+      ],
+      "iconUrls": [
+        "https://gblobscdn.gitbook.com/spaces%2F-Lpi9AHj62wscNlQjI-l%2Favatar.png?alt=media"
+      ],
+      "nativeCurrency": {
+        "name": "xDAI",
+        "symbol": "xDAI",
+        "decimals": 18
+      }
+    }
+  ],
+  "paramFantom": [
+    {
+      "chainId": "0xFA",
+      "chainName": "Fantom Opera",
+      "rpcUrls": [
+        "https://rpcapi.fantom.network/1"
+      ],
+      "iconUrls": [
+        "https://fantom.foundation/wp-content/themes/fantom-web/images/fantom_logo_white_new.svg"
+      ],
+      "nativeCurrency": {
+        "name": "ftm",
+        "symbol": "FTM",
+        "decimals": 18
+      },
+      "blockExplorerUrls": [
+        "https://ftmscan.com/"
+      ]
+    }
+  ]
+}

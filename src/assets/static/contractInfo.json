@@ -1,0 +1,14 @@
+{
+  "koiosTestNFTAttendance": {
+    "name": "Attendance Test NFT",
+    "chainId": 4,
+    "chainName": "Rinkeby",
+    "address": "0x14AfcB62AC5b2BcB7329968e51c0F9571eB4c84C"
+  },
+  "koiosTestNFTPresenter": {
+    "name": "Presenter Test NFT",
+    "chainId": 4,
+    "chainName": "Rinkeby",
+    "address": "0x58062f890867d0d5bb263b55705339be4d043ee0"
+  }
+}
