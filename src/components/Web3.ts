@@ -33,7 +33,7 @@ export const loadContract = async (tokeninfo: any) => {
     }
     else {
       window.alert(`change your metamask wallet to ${tokeninfo.chainName}`);
-      console.log("You are on the wrong chain");
+      console.log(`You are on the wrong chain, change to ${tokeninfo.chainName}`);
     }
   } catch (e) {
     console.log(e);
@@ -52,6 +52,5 @@ const newActs = async () => {
 }
 
 export const selectChain = (param: any) => {
-
   window.ethereum.request({ method: 'wallet_addEthereumChain', params: param });
 }
