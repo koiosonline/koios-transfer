@@ -1,7 +1,7 @@
 let transferlist: any = [];
 let addresslist: any = [];
 
-export const addElementsToList = async (addresses: string) => {
+export const addElementsToList = async (names: string, addresses: string, amount:string) => {
   transferlist = [];
   addresslist = [];
   addresslist = addresses.split(',');

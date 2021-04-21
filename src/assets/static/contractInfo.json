@@ -22,5 +22,17 @@
     "chainId": 100,
     "chainName": "xDai",
     "address": "0x4Ee9b0Ad41067623BD86c634b29e387E8E66651D"
+  },
+  "TitanToken": {
+    "name": "Koios Titan Token",
+    "chainId": 4,
+    "chainName": "Rinkeby",
+    "address": "0x4Ee9b0Ad41067623BD86c634b29e387E8E66651D"
+  },
+  "T1tanToken": {
+    "name": "Koios T1tan Token",
+    "chainId": 4,
+    "chainName": "Rinkeby",
+    "address": "0x4Ee9b0Ad41067623BD86c634b29e387E8E66651D"
   }
 }

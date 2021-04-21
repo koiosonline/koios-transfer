@@ -6,7 +6,7 @@ import InputLabel from '@material-ui/core/InputLabel';
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from "@material-ui/core/Select";
-import { addElementsToList, getTransferList } from "../components/HandleInputs";
+import { addElementsToList, getTransferList } from "../components/HandleNftInputs";
 import { MintTokens } from "../components/MintTokens";
 import chainInfo from "../assets/static/chainInfo.json";
 import contractInfo from "../assets/static/contractInfo.json";
@@ -79,7 +79,7 @@ export const Mintnonfungible = () => {
   }
 
   return (
-    <section className="home">
+    <section className="mintnonfungible">
       <section className="chain-contract-selection">
         <div className="chain-contract-selection__select">
           <FormControl variant="outlined" className="chain-contract-selection__select-chain-dropdown">
