@@ -1,9 +1,13 @@
 let transferlist: any = [];
 let addresslist: any = [];
+let nameslist: any = [];
+let amountlist: any = [];
 
 export const addElementsToList = async (names: string, addresses: string, amount:string) => {
   transferlist = [];
   addresslist = [];
+  nameslist = [];
+  amountlist = [];
   addresslist = addresses.split(',');
   console.log(addresslist);
   for (let i = 0; i < addresslist.length; i++) {
@@ -27,4 +31,8 @@ export const getTransferList = async () => {
 
 export const getAddressList = async () => {
   return addresslist;
+}
+
+export const getAmountList = async () => {
+  return amountlist;
 }
