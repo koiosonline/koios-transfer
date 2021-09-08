@@ -2,36 +2,42 @@
   "koiosTestNFTAttendance": {
     "name": "Attendance Test NFT",
     "chainId": 4,
+    "Type": "NFT",
     "chainName": "Rinkeby",
     "address": "0x14AfcB62AC5b2BcB7329968e51c0F9571eB4c84C"
   },
   "koiosTestNFTPresenter": {
     "name": "Presenter Test NFT",
     "chainId": 4,
+    "Type": "NFT",
     "chainName": "Rinkeby",
     "address": "0x58062f890867d0d5bb263b55705339be4d043ee0"
   },
   "koiosAttendeeNFT": {
     "name": "Koios attendeeNFT Blockchain week 2021",
     "chainId": 100,
+    "Type": "NFT",
     "chainName": "xDai",
     "address": "0x7F380c4af54eCD3350F159090e7855a0cDEB85Af"
   },
   "koiosPresenterNFT": {
     "name": "Koios presenterNFT Blockchain week 2021",
     "chainId": 100,
+    "Type": "NFT",
     "chainName": "xDai",
     "address": "0x4Ee9b0Ad41067623BD86c634b29e387E8E66651D"
   },
   "TitanToken": {
     "name": "Koios Titan Token",
     "chainId": 4,
+    "Type": "FT",
     "chainName": "Rinkeby",
     "address": "0xc571A04F4332093364ce38559f313bA2a766FbB9"
   },
   "T1tanToken": {
     "name": "Koios T1tan Token",
     "chainId": 4,
+    "Type": "FT",
     "chainName": "Rinkeby",
     "address": "0x7f5BBa771806f18C32F3F51F403d0b7294A8E5Ec"
   }
