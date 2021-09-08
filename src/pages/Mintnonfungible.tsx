@@ -1,5 +1,5 @@
 import React from "react";
-import { LoadWeb3, selectChain, loadContract } from "../components/Web3";
+import { LoadWeb3, selectChain, loadContractNFT } from "../components/Web3";
 import { Header } from "../components/Header";
 import TextField from "@material-ui/core/TextField";
 import InputLabel from '@material-ui/core/InputLabel';
@@ -45,16 +45,16 @@ export const Mintnonfungible = () => {
     setContract(event.target.value)
     switch (event.target.value) {
       case "AttTestToken":
-        loadContract(contractInfo.koiosTestNFTAttendance);
+        loadContractNFT(contractInfo.koiosTestNFTAttendance);
         break;
       case "PresTestToken":
-        loadContract(contractInfo.koiosTestNFTPresenter);
+        loadContractNFT(contractInfo.koiosTestNFTPresenter);
         break;
       case "AttendeeToken":
-        loadContract(contractInfo.koiosAttendeeNFT);
+        loadContractNFT(contractInfo.koiosAttendeeNFT);
         break;
       case "PresenterToken":
-        loadContract(contractInfo.koiosPresenterNFT);
+        loadContractNFT(contractInfo.koiosPresenterNFT);
         break;
       default:
         console.log("Contract not available");

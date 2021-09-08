@@ -1,5 +1,5 @@
 import React from "react";
-import { LoadWeb3, loadContract } from "../components/Web3";
+import { LoadWeb3, loadContractFT } from "../components/Web3";
 import { Header } from "../components/Header";
 import TextField from "@material-ui/core/TextField";
 import InputLabel from '@material-ui/core/InputLabel';
@@ -31,10 +31,10 @@ export const Transferfungible = () => {
     setToken(event.target.value)
     switch (event.target.value) {
       case "TitanToken":
-        loadContract(contractInfo.TitanToken);
+        loadContractFT(contractInfo.TitanToken);
         break;
       case "T1tanToken":
-        loadContract(contractInfo.T1tanToken);
+        loadContractFT(contractInfo.T1tanToken);
         break;
       default:
         console.log("Contract not available");
@@ -114,7 +114,7 @@ export const Transferfungible = () => {
             className="fungibletoken-section__mint-button"
             onClick={() => TransferTokens()}
           >
-            Mint Tokens
+            Transfer Tokens
           </button>
         </div>
 
@@ -123,6 +123,7 @@ export const Transferfungible = () => {
             <thead>
               <tr>
                 <th>Address</th>
+                <th>Amount</th>
               </tr>
             </thead>
             <tbody>
@@ -130,6 +131,7 @@ export const Transferfungible = () => {
                 return (
                   <tr key={index}>
                     <td>{users.address}</td>
+                    <td>{users.amount}</td>
                   </tr>
                 );
               })}

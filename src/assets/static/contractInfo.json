@@ -27,12 +27,12 @@
     "name": "Koios Titan Token",
     "chainId": 4,
     "chainName": "Rinkeby",
-    "address": "0x4Ee9b0Ad41067623BD86c634b29e387E8E66651D"
+    "address": "0xc571A04F4332093364ce38559f313bA2a766FbB9"
   },
   "T1tanToken": {
     "name": "Koios T1tan Token",
     "chainId": 4,
     "chainName": "Rinkeby",
-    "address": "0x4Ee9b0Ad41067623BD86c634b29e387E8E66651D"
+    "address": "0x7f5BBa771806f18C32F3F51F403d0b7294A8E5Ec"
   }
 }
