@@ -1,0 +1,28 @@
+.mintnonfungible {
+  padding: 15px;
+
+  .token-section {
+
+    &__inputs {
+      width: 700px;
+    }
+
+    &__addresses {
+      width: 500px;
+    }
+  }
+
+  .chain-contract-selection {
+    &__select {
+      width: 700px;
+    }
+
+    &__select-chain-dropdown {
+      width: 150px;
+    }
+
+    &__select-contract-dropdown {
+      width: 300px;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import { getAddressList } from "./HandleInputs";
+import { getAddressList } from "./HandleNftInputs";
 
 export const MintTokens = async () => {
   let accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
