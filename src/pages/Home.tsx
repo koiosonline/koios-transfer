@@ -8,7 +8,9 @@ export const Home = () => {
       <h2>Koios</h2>
       <Link to="/mintnonfungible">Mint non fungible token</Link>
       <p></p>
-      <Link to="/transferfungible">Transfer ERC20 tokens</Link>
+      <Link to="/transferfungibleminor">Transfer Minor Titan tokens</Link>
+      <p></p>
+      <Link to="/transferfungibledao">Transfer Koios Dao tokens</Link>
     </div>
   );
 }

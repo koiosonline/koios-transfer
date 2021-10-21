@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/koios-transfer/static/css/main.f7e6445e.chunk.css",
-    "main.js": "/koios-transfer/static/js/main.4b1b33b6.chunk.js",
-    "main.js.map": "/koios-transfer/static/js/main.4b1b33b6.chunk.js.map",
+    "main.js": "/koios-transfer/static/js/main.344f885f.chunk.js",
+    "main.js.map": "/koios-transfer/static/js/main.344f885f.chunk.js.map",
     "runtime-main.js": "/koios-transfer/static/js/runtime-main.9f4f3adc.js",
     "runtime-main.js.map": "/koios-transfer/static/js/runtime-main.9f4f3adc.js.map",
-    "static/js/2.109de4c7.chunk.js": "/koios-transfer/static/js/2.109de4c7.chunk.js",
-    "static/js/2.109de4c7.chunk.js.map": "/koios-transfer/static/js/2.109de4c7.chunk.js.map",
+    "static/js/2.d61236d2.chunk.js": "/koios-transfer/static/js/2.d61236d2.chunk.js",
+    "static/js/2.d61236d2.chunk.js.map": "/koios-transfer/static/js/2.d61236d2.chunk.js.map",
     "static/js/3.622e3988.chunk.js": "/koios-transfer/static/js/3.622e3988.chunk.js",
     "static/js/3.622e3988.chunk.js.map": "/koios-transfer/static/js/3.622e3988.chunk.js.map",
     "index.html": "/koios-transfer/index.html",
     "static/css/main.f7e6445e.chunk.css.map": "/koios-transfer/static/css/main.f7e6445e.chunk.css.map",
-    "static/js/2.109de4c7.chunk.js.LICENSE.txt": "/koios-transfer/static/js/2.109de4c7.chunk.js.LICENSE.txt"
+    "static/js/2.d61236d2.chunk.js.LICENSE.txt": "/koios-transfer/static/js/2.d61236d2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9f4f3adc.js",
-    "static/js/2.109de4c7.chunk.js",
+    "static/js/2.d61236d2.chunk.js",
     "static/css/main.f7e6445e.chunk.css",
-    "static/js/main.4b1b33b6.chunk.js"
+    "static/js/main.344f885f.chunk.js"
   ]
 }
