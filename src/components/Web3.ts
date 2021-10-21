@@ -1,7 +1,6 @@
 import Web3 from "web3";
 import mintBulkAbi from "../assets/static/mintBulk-abi.json";
 import transferBulkAbi from "../assets/static/transferBulk-abi.json";
-import giveAwayAbi from "../assets/static/giveAway-abi.json";
 const web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
 
 export const LoadWeb3 = async () => {
@@ -32,11 +31,6 @@ const contractABIft = () => {
   return abi;
 };
 
-const contractABIga = () => {
-  const abi = giveAwayAbi;
-  return abi;
-};
-
 export const loadContractNFT = async (tokeninfo: any) => {
   try {
     if (tokeninfo.chainId === await window.web3.eth.getChainId()) {
@@ -61,21 +55,6 @@ export const loadContractFT = async (tokeninfo: any) => {
     else {
       window.alert(`change your metamask wallet to ${tokeninfo.chainName}`);
       console.log(`You are on the wrong chain, change to ${tokeninfo.chainName}`);
-    }
-  } catch (e) {
-    console.log(e);
-  }
-};
-
-export const loadContractKoiosDAO = async (contractinfo: any) => {
-  try {
-    if (contractinfo.chainId === await window.web3.eth.getChainId()) {
-      const result = await new web3.eth.Contract(contractABIga() as any, contractinfo.address);
-      window.giveAwayAbi = result;
-    }
-    else {
-      window.alert(`change your metamask wallet to ${contractinfo.chainName}`);
-      console.log(`You are on the wrong chain, change to ${contractinfo.chainName}`);
     }
   } catch (e) {
     console.log(e);

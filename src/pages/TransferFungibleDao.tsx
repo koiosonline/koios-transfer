@@ -1,20 +1,16 @@
 import React from "react";
-import { LoadWeb3, loadContractKoiosDAO } from "../components/Web3";
+import { LoadWeb3, loadContractFT } from "../components/Web3";
 import { Header } from "../components/Header";
 import TextField from "@material-ui/core/TextField";
-import InputLabel from '@material-ui/core/InputLabel';
-import MenuItem from '@material-ui/core/MenuItem';
-import FormControl from '@material-ui/core/FormControl';
-import Select from "@material-ui/core/Select";
 import { addElementsToList, getTransferList } from "../components/HandleFtInputs";
-import { TransferKoiosDaoTokens } from "../components/TransferKoiosDaoToken";
+import { TransferTokens } from "../components/TransferTokens";
 import contractInfo from "../assets/static/contractInfo.json";
 
 declare global {
   interface Window {
     ethereum: any;
     web3: any;
-    giveAwayAbi: any;
+    transferBulkAbi: any;
   }
 }
 
@@ -26,7 +22,7 @@ export const TransferFungibleArbitrum = () => {
   const [valueamount, setAmountValue] = React.useState('');
   const [transferlist, showTransferList] = React.useState<any[]>([]);
 
-  loadContractKoiosDAO(contractInfo.GiveAwayContract);
+  loadContractFT(contractInfo.KoiosTitanToken);
 
   const handleNamesChange = (event: any) => {
     setNamesValue(event.target.value);
@@ -84,7 +80,7 @@ export const TransferFungibleArbitrum = () => {
           </button>
           <button
             className="fungibletoken-section__mint-button"
-            onClick={() => TransferKoiosDaoTokens()}
+            onClick={() => TransferTokens()}
           >
             Transfer Tokens
           </button>
