@@ -40,5 +40,19 @@
     "Type": "FT",
     "chainName": "Rinkeby",
     "address": "0x7f5BBa771806f18C32F3F51F403d0b7294A8E5Ec"
+  },
+  "KoiosTitanToken": {
+    "name": "Titan",
+    "chainId": 42161,
+    "Type": "FT",
+    "chainName": "Arbitrum",
+    "address": "0x2762e676A9F17C7De34fe4b124424837c7E18e1c"
+  },
+  "GiveAwayContract": {
+    "name": "GiveAway external contract",
+    "chainId": 42161,
+    "Type": "External Contract Function",
+    "chainName": "Arbitrum",
+    "address": "0x48B0E52e1911E5AF7aFBC69720339bFC65e47091"
   }
 }

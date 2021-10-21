@@ -1,12 +1,10 @@
 let transferlist: any = [];
 let addresslist: any = [];
-let nameslist: any = [];
 let amountlist: any = [];
 
 export const addElementsToList = async (names: string, addresses: string, amount:string) => {
   transferlist = [];
   addresslist = [];
-  nameslist = [];
   addresslist = addresses.split(',');
   amountlist = amount.split(',');
   console.log(addresslist);
