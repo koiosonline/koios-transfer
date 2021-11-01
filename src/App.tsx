@@ -2,7 +2,7 @@ import { Route, HashRouter as Router, Switch } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Mintnonfungible } from "./pages/Mintnonfungible";
 import { TransferFungibleRinkeby } from "./pages/TransferfungibleRinkeby";
-import { TransferFungibleArbitrum } from "./pages/TransferFungibleArbitrum";
+import { TransferFungibleArbitrum } from "./pages/TransferFungibleDao";
 
 
 export const App = () => {
