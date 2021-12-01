@@ -1,7 +1,7 @@
 {
   "paramRinkeby": [
     {
-      "chainId": "0x4",
+      "chainId": 4,
       "chainName": "Rinkeby",
       "rpcUrls": [
         "https://rinkeby.infura.io/v32d82f4a0940f44b781b714a309d7d199",
@@ -10,6 +10,20 @@
       "nativeCurrency": {
         "name": "Rinkeby Ether",
         "symbol": "RIN",
+        "decimals": 18
+      }
+    }
+  ],
+  "paramPolygon": [
+    {
+      "chainId": 137,
+      "chainName": "Polygon",
+      "rpcUrls": [
+        "https://polygon-rpc.com"
+      ],
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
         "decimals": 18
       }
     }

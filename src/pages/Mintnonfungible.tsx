@@ -30,6 +30,9 @@ export const Mintnonfungible = () => {
   const handleChainChange = (event: any) => {
     setChain(event.target.value)
     switch (event.target.value) {
+      case "Rinkeby":
+        selectChain(chainInfo.paramRinkeby);
+        break;
       case "xDai":
         selectChain(chainInfo.paramxDai);
         break;

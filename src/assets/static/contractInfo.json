@@ -27,6 +27,13 @@
     "chainName": "xDai",
     "address": "0x4Ee9b0Ad41067623BD86c634b29e387E8E66651D"
   },
+  "KoiosTestBadges": {
+    "name": "Koios Test Badge",
+    "chainId": 4,
+    "Type": "NFT-badge",
+    "chainName": "Rinkeby",
+    "address": "0x4415c33825b8860a35176cf0f4a90de17cebc105"
+  },
   "TitanToken": {
     "name": "Koios Titan Token",
     "chainId": 4,

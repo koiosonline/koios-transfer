@@ -1,5 +1,6 @@
 import Web3 from "web3";
 import mintBulkAbi from "../assets/static/mintBulk-abi.json";
+import mintBadgesAbi from "../assets/static/mintBulkBadges-abi.json";
 import transferBulkAbi from "../assets/static/transferBulk-abi.json";
 const web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
 
@@ -26,9 +27,29 @@ const contractABInft = () => {
   return abi;
 };
 
+const contractABIbadges = () => {
+  const abi = mintBadgesAbi;
+  return abi;
+};
+
 const contractABIft = () => {
   const abi = transferBulkAbi;
   return abi;
+};
+
+export const loadContractBadges = async (tokeninfo: any) => {
+  try {
+    if (tokeninfo.chainId === await window.web3.eth.getChainId()) {
+      const result = await new web3.eth.Contract(contractABIbadges() as any, tokeninfo.address);
+      window.mintBadgesAbi = result;
+    }
+    else {
+      window.alert(`change your metamask wallet to ${tokeninfo.chainName}`);
+      console.log(`You are on the wrong chain, change to ${tokeninfo.chainName}`);
+    }
+  } catch (e) {
+    console.log(e);
+  }
 };
 
 export const loadContractNFT = async (tokeninfo: any) => {
